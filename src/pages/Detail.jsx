@@ -11,7 +11,7 @@ const Detail = () => {
   return (
     <div>
           
- <Card style={{ height: '550px'}} className=" m-auto   text-center">
+ <Card style={{ height: '450px'}} className=" m-auto card-detail   text-center">
      
      
      
@@ -23,7 +23,7 @@ const Detail = () => {
       <Card.Title><ListGroup.Item>{item.isim.toUpperCase()}</ListGroup.Item></Card.Title>
       
       <div className="d-flex justify-content-between">
-      <Card.Img className="player-logo" variant="top"    style={{ width:"300px" }} src= {item.image} />
+      <Card.Img className="player-logo" variant="top"    style={{ width:"250px" }} src= {item.image} />
       <Card.Body>
         
         <ListGroup.Item><p> <span className=" fw-bold">Puan: </span><span className="text-danger fw-bold"> {item.puan}</span></p></ListGroup.Item>
