@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div> 
     <Card className="text-center bg-dark">
-    <Card.Footer className='text-white'> All Rights Reserved ©
+    <Card.Footer className='text-white'> All Rights Reserved © {new Date().getFullYear()}
             
             </Card.Footer>
     
