@@ -11,7 +11,7 @@ const Detail = () => {
   return (
     <div>
           
- <Card style={{ height: '450px'}} className=" m-auto card-detail   text-center">
+ <Card style={{ height: '550px'}} className=" m-auto card-detail   text-center">
      
      
      
