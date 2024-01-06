@@ -11,7 +11,7 @@ body {
 
 
 .nav-link {
-  color: white !important;
+  color: black !important;
   &:hover {
     color: rgb(120, 146, 224) !important;
   }
