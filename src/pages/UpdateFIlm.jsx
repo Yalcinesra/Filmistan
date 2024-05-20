@@ -27,7 +27,7 @@ const UpdateFilm = () => {
         name="add-product"
         className="mb-4 mt-4 col col-lg-6 mx-auto border rounded-2 bg-opacity-50 bg-light"
       >
-        <h1 className="text-center">update Film</h1>
+        <h1 className="text-center">Update Film</h1>
 
         <FilmForm
           handleSubmit={handleSubmit}

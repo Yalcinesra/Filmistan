@@ -16,7 +16,7 @@ const About = () => {
               <span>Frontend Developer</span>
               <div className="px-4 mt-1">
                 <p className="fonts">
-                  Acemiyim. Daha iyisi mutlaka yapilir ama vakit malumunuz... insallah isinize yarar. Dua ederseniz sevinirim. 
+                   
                 </p>
               </div>
               <ul className="social-list">
@@ -27,10 +27,11 @@ const About = () => {
                   <i className="fa-brands fa-dribbble" />
                 </li>
                 <li>
-                  <i className="fa-brands fa-instagram" />
+                <a className="linkA" target="_blank" href="https://www.instagram.com/zeynep.mode?igsh=MWc3dmtndWRpeTF3MQ==">
+                  <i className="fa-brands fa-instagram" /></a>
                 </li>
                 <li>
-                <a className="linkA" href="https://www.linkedin.com/in/esra--yalcin/">
+                <a className="linkA" target="_blank" href="https://www.linkedin.com/in/esra--yalcin/">
                   <i className="fa-brands fa-linkedin" /></a>
                 </li>
                 <li>
